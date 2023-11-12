@@ -24,7 +24,7 @@ let array = [
 let data = ``
 
 array.forEach(function(e,i){
-    data += `<div id="${i}" class="h-[60vh] w-full cursor-pointer lg:w-[30%] py-4 bg-[url(${e.cover})] bg-cover bg-center rounded-3xl flex flex-col justify-end align-center">
+    data += `<div id="${i}" class="h-[60vh] w-full cursor-pointer lg:w-[30%] py-4 my-4 bg-[url(${e.cover})] bg-cover bg-center rounded-3xl flex flex-col justify-end align-center">
    <h4 class="text-xl text-center drop-shadow-md">${e.h4}</h4>
    <h1 class="text-4xl text-center font-semibold">${e.h1}</h1>
 </div>` 
